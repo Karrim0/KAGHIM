@@ -11,7 +11,7 @@ p
 body
 {
     text-align: center;
-    background-color:rgb(238, 235, 235);  
+    background-color:hsla(89, 43%, 51%, 0.3);  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .qoute-container
@@ -21,4 +21,21 @@ body
     color: #fff;
     border-radius: 1rem;
     /* display: none; */
+}
+
+@media screen and (max-width :720px) {
+
+    .qoute-container
+    {
+        width: 70%;
+        font-size: 0.7rem;
+    }
+    h1
+    {
+        font-size:2rem;
+    }
+    p
+    {
+        font-size: 1rem;
+    }
 }
