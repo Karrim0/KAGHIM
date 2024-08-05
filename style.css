@@ -1,0 +1,24 @@
+h1
+{
+    font-size: 5rem;
+    color:  rgb(81, 55, 55);
+}
+p
+{
+    color: rgb(89, 84, 84);
+    font-size: 3rem;
+}
+body
+{
+    text-align: center;
+    background-color:rgb(238, 235, 235);  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.qoute-container
+{
+
+    background-color: rgb(127, 129, 128);
+    color: #fff;
+    border-radius: 1rem;
+    /* display: none; */
+}
